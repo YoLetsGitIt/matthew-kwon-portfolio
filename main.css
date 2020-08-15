@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.background-primary {
+    background-color: rgb(67, 26, 114);
+}
+
+.border-secondary {
+    border: 10px solid rgb(167, 116, 224);
+}
+
+.color-secondary {
+    color: rgb(167, 116, 224);
+}
+
+h1 {
+    padding-top: 90px;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    color: rgba(0, 0, 0, 0.55);
+}
+
+li {
+    color: rgba(0, 0, 0, 0.55);
+    padding-bottom: 10px;
+}
+
+nav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 290px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    overflow-x: hidden;  /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+
+nav div {
+    width: auto;
+    position: relative;
+    top: 20%;
+    text-align: center;
+}
+
+.navigation {
+    /* display: flex;
+    flex-direction: column; */
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+.navigation li {
+    padding-top: 20px;
+}
+
+.navigation li a{
+    color: rgba(255, 255, 255, 0.4);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#profile-photo {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+body {
+    margin-left: 290px;
+    padding: 0px 50px;
+}
+
+header {
+    min-height: 100vh;
+}
+
+.name {
+    font-size: 70px;
+    display: flex;
+}
+
+.name h1 {
+    padding-top: 0px;
+}
+
+#last-name {
+    color: rgb(167, 116, 224);
+    padding-left: 15px;
+}
+
+#email {
+    text-decoration: none;
+}
+
+header div {
+    position: absolute;
+    top: 30%;
+} 
+
+header section h2, p {
+    padding-bottom: 20px;
+}
+
+header section h3 {
+    padding-bottom: 70px;
+}
+
+.about-me a {
+    padding-right: 15px;
+}
+
+main {
+    /*background: linear-gradient(to left top, blue, red);*/
+    min-height: 100vh;
+    border-top: 1px solid rgb(167, 116, 224);
+}
+
+main section h2 {
+    padding-top: 50px;
+}
+
+main section ul, p {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.title-duration {
+    display: flex;
+    justify-content: space-between;
+}
+
+.duration-date {
+    color: rgba(89, 89, 255, 0.8);
+    font-size: 17px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.icons {
+    width: 40px;
+    height: 40px;
+}
+
+.my-travels {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+
+.my-travels section {
+    padding-right: 90px;
+}
+
+.my-travels section iframe {
+    padding-top: 5px;
+}
+
